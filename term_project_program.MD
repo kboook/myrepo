@@ -14,3 +14,5 @@ for k in data1:
     b = k[k.rfind('조회수')+4:-1]
     b = b.replace(',','')
     data2[a] = int(b)
+
+ㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅁㄴ
