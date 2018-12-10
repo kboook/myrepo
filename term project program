@@ -25,7 +25,9 @@ for k in data2:
     f.write(view)
 f.close()
 
+print("Youtube python search result in view counts\n")
+
 for k in sorted(data2, key=data2.__getitem__, reverse=True):
     for i in sorted(data3, key=data3.__getitem__, reverse=True):
-        print('%s: %s'%(k, i))
+        print('video title: %s- view count: %s'%(k, i))
     
